@@ -26,8 +26,8 @@ MonoBehaviour:
     - key: -263844003
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .51171875
+        x: 0
+        y: .865234375
         width: .0390625
         height: .0390625
       delay: 200
@@ -35,8 +35,8 @@ MonoBehaviour:
     - key: 517402824
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .552734375
+        x: 0
+        y: .90625
         width: .0390625
         height: .0390625
       delay: 200
@@ -72,7 +72,7 @@ MonoBehaviour:
     - key: 816172744
       uv:
         serializedVersion: 2
-        x: 0
+        x: .900390625
         y: .353515625
         width: .078125
         height: .15625
@@ -81,7 +81,7 @@ MonoBehaviour:
     - key: -229213366
       uv:
         serializedVersion: 2
-        x: 0
+        x: .900390625
         y: .51171875
         width: .078125
         height: .15625
@@ -91,7 +91,7 @@ MonoBehaviour:
       uv:
         serializedVersion: 2
         x: 0
-        y: .669921875
+        y: .70703125
         width: .078125
         height: .15625
       delay: 200
@@ -99,8 +99,8 @@ MonoBehaviour:
     - key: -2010034081
       uv:
         serializedVersion: 2
-        x: 0
-        y: .828125
+        x: .080078125
+        y: .70703125
         width: .078125
         height: .15625
       delay: 200
@@ -108,8 +108,45 @@ MonoBehaviour:
     - key: 837197225
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .353515625
+        x: .16015625
+        y: .70703125
+        width: .078125
+        height: .15625
+      delay: 200
+      importAssetPath: 
+  - pixelSizeX: 40
+    pixelSizeY: 80
+    newPixelSizeX: 40
+    newPixelSizeY: 80
+    key: 439229879
+    name: 
+    fontCharacter: 
+    fontYOffset: 0
+    _animations: []
+    _cells:
+    - key: 537477824
+      uv:
+        serializedVersion: 2
+        x: .240234375
+        y: .70703125
+        width: .078125
+        height: .15625
+      delay: 200
+      importAssetPath: 
+    - key: 1719349062
+      uv:
+        serializedVersion: 2
+        x: .3203125
+        y: .70703125
+        width: .078125
+        height: .15625
+      delay: 200
+      importAssetPath: 
+    - key: 1360325569
+      uv:
+        serializedVersion: 2
+        x: .400390625
+        y: .70703125
         width: .078125
         height: .15625
       delay: 200
@@ -127,8 +164,8 @@ MonoBehaviour:
     - key: -2050246175
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .59375
+        x: 0
+        y: .947265625
         width: .0390625
         height: .0390625
       delay: 200
@@ -137,7 +174,7 @@ MonoBehaviour:
       uv:
         serializedVersion: 2
         x: .080078125
-        y: .634765625
+        y: .865234375
         width: .0390625
         height: .0390625
       delay: 200
@@ -146,7 +183,7 @@ MonoBehaviour:
       uv:
         serializedVersion: 2
         x: .080078125
-        y: .67578125
+        y: .90625
         width: .0390625
         height: .0390625
       delay: 200
@@ -155,7 +192,7 @@ MonoBehaviour:
       uv:
         serializedVersion: 2
         x: .080078125
-        y: .716796875
+        y: .947265625
         width: .0390625
         height: .0390625
       delay: 200
@@ -163,8 +200,8 @@ MonoBehaviour:
     - key: -1666161310
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .7578125
+        x: .16015625
+        y: .865234375
         width: .0390625
         height: .0390625
       delay: 200
@@ -172,8 +209,8 @@ MonoBehaviour:
     - key: 578110605
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .798828125
+        x: .16015625
+        y: .90625
         width: .0390625
         height: .0390625
       delay: 200
@@ -181,8 +218,8 @@ MonoBehaviour:
     - key: -84429821
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .83984375
+        x: .16015625
+        y: .947265625
         width: .0390625
         height: .0390625
       delay: 200
@@ -190,8 +227,8 @@ MonoBehaviour:
     - key: -654560686
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .880859375
+        x: .240234375
+        y: .865234375
         width: .0390625
         height: .0390625
       delay: 200
@@ -211,6 +248,15 @@ MonoBehaviour:
         serializedVersion: 2
         x: 0
         y: 0
+        width: .8984375
+        height: .3515625
+      delay: 200
+      importAssetPath: Assets/Level_0/bkg.png
+    - key: 1096728776
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: .353515625
         width: .8984375
         height: .3515625
       delay: 200
