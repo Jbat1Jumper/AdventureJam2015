@@ -26,8 +26,35 @@ MonoBehaviour:
     - key: -263844003
       uv:
         serializedVersion: 2
-        x: 0
-        y: .865234375
+        x: .16015625
+        y: .353515625
+        width: .0390625
+        height: .0390625
+      delay: 200
+      importAssetPath: 
+    - key: -1153591311
+      uv:
+        serializedVersion: 2
+        x: .16015625
+        y: .39453125
+        width: .0390625
+        height: .0390625
+      delay: 200
+      importAssetPath: 
+    - key: 1372114196
+      uv:
+        serializedVersion: 2
+        x: .16015625
+        y: .435546875
+        width: .0390625
+        height: .0390625
+      delay: 200
+      importAssetPath: 
+    - key: 1861667188
+      uv:
+        serializedVersion: 2
+        x: .16015625
+        y: .4765625
         width: .0390625
         height: .0390625
       delay: 200
@@ -35,8 +62,8 @@ MonoBehaviour:
     - key: 517402824
       uv:
         serializedVersion: 2
-        x: 0
-        y: .90625
+        x: .16015625
+        y: .517578125
         width: .0390625
         height: .0390625
       delay: 200
@@ -49,7 +76,19 @@ MonoBehaviour:
     name: 
     fontCharacter: 
     fontYOffset: 0
-    _animations: []
+    _animations:
+    - name: Walk
+      mode: 2
+      frameMode: 1
+      startIndex: 0
+      endIndex: 6
+      frames: 0500000006000000
+    - name: Stand
+      mode: 2
+      frameMode: 1
+      startIndex: 0
+      endIndex: 6
+      frames: 010000000100000001000000000000000100000001000000010000000100000001000000000000000100000001000000010000000100000001000000
     _cells:
     - key: 1684067945
       uv:
@@ -72,7 +111,7 @@ MonoBehaviour:
     - key: 816172744
       uv:
         serializedVersion: 2
-        x: .900390625
+        x: 0
         y: .353515625
         width: .078125
         height: .15625
@@ -81,7 +120,7 @@ MonoBehaviour:
     - key: -229213366
       uv:
         serializedVersion: 2
-        x: .900390625
+        x: 0
         y: .51171875
         width: .078125
         height: .15625
@@ -91,7 +130,7 @@ MonoBehaviour:
       uv:
         serializedVersion: 2
         x: 0
-        y: .70703125
+        y: .669921875
         width: .078125
         height: .15625
       delay: 200
@@ -99,8 +138,8 @@ MonoBehaviour:
     - key: -2010034081
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .70703125
+        x: 0
+        y: .828125
         width: .078125
         height: .15625
       delay: 200
@@ -108,8 +147,8 @@ MonoBehaviour:
     - key: 837197225
       uv:
         serializedVersion: 2
-        x: .16015625
-        y: .70703125
+        x: .080078125
+        y: .353515625
         width: .078125
         height: .15625
       delay: 200
@@ -127,8 +166,8 @@ MonoBehaviour:
     - key: 537477824
       uv:
         serializedVersion: 2
-        x: .240234375
-        y: .70703125
+        x: .080078125
+        y: .51171875
         width: .078125
         height: .15625
       delay: 200
@@ -136,8 +175,8 @@ MonoBehaviour:
     - key: 1719349062
       uv:
         serializedVersion: 2
-        x: .3203125
-        y: .70703125
+        x: .080078125
+        y: .669921875
         width: .078125
         height: .15625
       delay: 200
@@ -145,8 +184,8 @@ MonoBehaviour:
     - key: 1360325569
       uv:
         serializedVersion: 2
-        x: .400390625
-        y: .70703125
+        x: .080078125
+        y: .828125
         width: .078125
         height: .15625
       delay: 200
@@ -164,8 +203,8 @@ MonoBehaviour:
     - key: -2050246175
       uv:
         serializedVersion: 2
-        x: 0
-        y: .947265625
+        x: .16015625
+        y: .55859375
         width: .0390625
         height: .0390625
       delay: 200
@@ -173,8 +212,8 @@ MonoBehaviour:
     - key: -1397597920
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .865234375
+        x: .16015625
+        y: .599609375
         width: .0390625
         height: .0390625
       delay: 200
@@ -182,8 +221,8 @@ MonoBehaviour:
     - key: 304696958
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .90625
+        x: .16015625
+        y: .640625
         width: .0390625
         height: .0390625
       delay: 200
@@ -191,8 +230,8 @@ MonoBehaviour:
     - key: -991110993
       uv:
         serializedVersion: 2
-        x: .080078125
-        y: .947265625
+        x: .16015625
+        y: .681640625
         width: .0390625
         height: .0390625
       delay: 200
@@ -201,7 +240,7 @@ MonoBehaviour:
       uv:
         serializedVersion: 2
         x: .16015625
-        y: .865234375
+        y: .72265625
         width: .0390625
         height: .0390625
       delay: 200
@@ -210,7 +249,7 @@ MonoBehaviour:
       uv:
         serializedVersion: 2
         x: .16015625
-        y: .90625
+        y: .763671875
         width: .0390625
         height: .0390625
       delay: 200
@@ -219,7 +258,7 @@ MonoBehaviour:
       uv:
         serializedVersion: 2
         x: .16015625
-        y: .947265625
+        y: .8046875
         width: .0390625
         height: .0390625
       delay: 200
@@ -227,8 +266,8 @@ MonoBehaviour:
     - key: -654560686
       uv:
         serializedVersion: 2
-        x: .240234375
-        y: .865234375
+        x: .16015625
+        y: .845703125
         width: .0390625
         height: .0390625
       delay: 200
@@ -243,20 +282,11 @@ MonoBehaviour:
     fontYOffset: 0
     _animations: []
     _cells:
-    - key: 1335996932
-      uv:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: .8984375
-        height: .3515625
-      delay: 200
-      importAssetPath: Assets/Level_0/bkg.png
     - key: 1096728776
       uv:
         serializedVersion: 2
         x: 0
-        y: .353515625
+        y: 0
         width: .8984375
         height: .3515625
       delay: 200

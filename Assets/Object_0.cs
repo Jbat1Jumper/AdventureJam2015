@@ -32,19 +32,26 @@ public class Object_0 : MonoBehaviour {
 		}
 	}
 
-	private float YPerspectiveRate = 0.4f;
+	private float YPerspectiveRate = 0.6f;
 	private float YZRelation = 7.0f;
 	private float ZOffset = 3f;
 
 	public float PosHeight = 0.0f;
 
-	protected void PosInit() {
+	protected void ObjectInit() {
 		PosY = (int)(this.transform.position.y / YPerspectiveRate);
+		try{
+			rpSprite = GetComponent<RagePixelSprite>();
+		}catch(Exception){
+        }
 	}
+	
+	[HideInInspector]
+	public RagePixelSprite rpSprite = null;
 
 	// Use this for initialization
 	void Start () {
-		PosInit();
+		ObjectInit();
 	}
 	
 	// Update is called once per frame
